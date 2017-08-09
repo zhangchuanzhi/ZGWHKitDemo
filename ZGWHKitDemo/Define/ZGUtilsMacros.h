@@ -98,6 +98,6 @@ shared##className = [[self alloc] init]; \
 return shared##className; \
 }
 
-
+#import "WHKit.h"
 
 #endif 

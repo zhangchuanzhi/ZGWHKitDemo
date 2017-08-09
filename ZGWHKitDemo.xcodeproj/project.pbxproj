@@ -29,6 +29,7 @@
 		234D1E321F3AB0A200D3CA6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234D1E301F3AB0A200D3CA6C /* Main.storyboard */; };
 		234D1E341F3AB0A200D3CA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234D1E331F3AB0A200D3CA6C /* Assets.xcassets */; };
 		234D1E371F3AB0A200D3CA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234D1E351F3AB0A200D3CA6C /* LaunchScreen.storyboard */; };
+		C87D91C9A1573C13EB1658C9 /* libPods-ZGWHKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5753BCD8791AF7F6995418 /* libPods-ZGWHKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,9 +63,12 @@
 		234D1E231F3AB0A200D3CA6C /* ZGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineController.h; sourceTree = "<group>"; };
 		234D1E241F3AB0A200D3CA6C /* ZGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineController.m; sourceTree = "<group>"; };
 		234D1E311F3AB0A200D3CA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		234D1E331F3AB0A200D3CA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		234D1E331F3AB0A200D3CA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		234D1E361F3AB0A200D3CA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		234D1E381F3AB0A200D3CA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234D1E381F3AB0A200D3CA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		4869FE0CD109484989DAFC5E /* Pods-ZGWHKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGWHKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGWHKitDemo/Pods-ZGWHKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5E5753BCD8791AF7F6995418 /* libPods-ZGWHKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZGWHKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920A966E6E8F68DA74CC62E2 /* Pods-ZGWHKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGWHKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGWHKitDemo/Pods-ZGWHKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				234D1DF01F3AB0A200D3CA6C /* UIKit.framework in Frameworks */,
 				234D1DEE1F3AB0A200D3CA6C /* Foundation.framework in Frameworks */,
 				234D1DF21F3AB0A200D3CA6C /* CoreImage.framework in Frameworks */,
+				C87D91C9A1573C13EB1658C9 /* libPods-ZGWHKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,7 @@
 				234D1DF31F3AB0A200D3CA6C /* ZGWHKitDemo */,
 				234D1DEA1F3AB0A200D3CA6C /* Frameworks */,
 				234D1DE91F3AB0A200D3CA6C /* Products */,
+				B71A5BCA95AE8251F8463BFE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +112,7 @@
 				234D1DED1F3AB0A200D3CA6C /* Foundation.framework */,
 				234D1DEF1F3AB0A200D3CA6C /* UIKit.framework */,
 				234D1DF11F3AB0A200D3CA6C /* CoreImage.framework */,
+				5E5753BCD8791AF7F6995418 /* libPods-ZGWHKitDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,14 +120,6 @@
 		234D1DF31F3AB0A200D3CA6C /* ZGWHKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				234D1DF71F3AB0A200D3CA6C /* AppDelegate.h */,
-				234D1DF81F3AB0A200D3CA6C /* AppDelegate.m */,
-				234D1DFA1F3AB0A200D3CA6C /* ViewController.h */,
-				234D1DFB1F3AB0A200D3CA6C /* ViewController.m */,
-				234D1E301F3AB0A200D3CA6C /* Main.storyboard */,
-				234D1E331F3AB0A200D3CA6C /* Assets.xcassets */,
-				234D1E351F3AB0A200D3CA6C /* LaunchScreen.storyboard */,
-				234D1E381F3AB0A200D3CA6C /* Info.plist */,
 				234D1E2E1F3AB0A200D3CA6C /* Utils */,
 				234D1E2C1F3AB0A200D3CA6C /* Resource */,
 				234D1E2A1F3AB0A200D3CA6C /* ThridParty */,
@@ -137,6 +136,8 @@
 		234D1DF41F3AB0A200D3CA6C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				234D1E301F3AB0A200D3CA6C /* Main.storyboard */,
+				234D1E351F3AB0A200D3CA6C /* LaunchScreen.storyboard */,
 				234D1DF51F3AB0A200D3CA6C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -170,6 +171,10 @@
 		234D1E0E1F3AB0A200D3CA6C /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				234D1DF71F3AB0A200D3CA6C /* AppDelegate.h */,
+				234D1DF81F3AB0A200D3CA6C /* AppDelegate.m */,
+				234D1DFA1F3AB0A200D3CA6C /* ViewController.h */,
+				234D1DFB1F3AB0A200D3CA6C /* ViewController.m */,
 				234D1E0F1F3AB0A200D3CA6C /* AppDelegate+AppService.h */,
 				234D1E101F3AB0A200D3CA6C /* AppDelegate+AppService.m */,
 			);
@@ -305,6 +310,8 @@
 		234D1E2C1F3AB0A200D3CA6C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				234D1E331F3AB0A200D3CA6C /* Assets.xcassets */,
+				234D1E381F3AB0A200D3CA6C /* Info.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -316,6 +323,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		B71A5BCA95AE8251F8463BFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4869FE0CD109484989DAFC5E /* Pods-ZGWHKitDemo.debug.xcconfig */,
+				920A966E6E8F68DA74CC62E2 /* Pods-ZGWHKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 234D1E3B1F3AB0A200D3CA6C /* Build configuration list for PBXNativeTarget "ZGWHKitDemo" */;
 			buildPhases = (
+				A965A346B1659085EF0A3EE4 /* [CP] Check Pods Manifest.lock */,
 				234D1DE41F3AB0A200D3CA6C /* Sources */,
 				234D1DE51F3AB0A200D3CA6C /* Frameworks */,
 				234D1DE61F3AB0A200D3CA6C /* Resources */,
+				767EF28717EA0A098A5CFC1B /* [CP] Embed Pods Frameworks */,
+				5262D20ED4E7C9B62DB65D42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,6 +408,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5262D20ED4E7C9B62DB65D42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGWHKitDemo/Pods-ZGWHKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767EF28717EA0A098A5CFC1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGWHKitDemo/Pods-ZGWHKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A965A346B1659085EF0A3EE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		234D1DE41F3AB0A200D3CA6C /* Sources */ = {
@@ -521,9 +588,13 @@
 		};
 		234D1E3C1F3AB0A200D3CA6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4869FE0CD109484989DAFC5E /* Pods-ZGWHKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGWHKitDemo/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGWHKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGWHKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,9 +603,13 @@
 		};
 		234D1E3D1F3AB0A200D3CA6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920A966E6E8F68DA74CC62E2 /* Pods-ZGWHKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGWHKitDemo/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGWHKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGWHKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +635,7 @@
 				234D1E3D1F3AB0A200D3CA6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
